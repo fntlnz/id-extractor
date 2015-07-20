@@ -1,5 +1,8 @@
 # ID Extractor
 
+This project is an OpenCV experiment operated by me and [@taueres](https://github.com/taueres).
+Currently it's only a setup and it does nothing.
+
 ### Dependencies
 
 ```
