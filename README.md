@@ -42,3 +42,9 @@ make -j
 ```
 ./bin/idextractortests
 ```
+
+### Other commands
+
+```
+make vcs-clean # Clean vcs repository
+```
