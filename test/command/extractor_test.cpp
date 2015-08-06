@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "command/extractor.hpp"
+#include "command/extractor.h"
 class ExtractorTest : public ::testing::Test {
     protected:
         ExtractorTest() {
@@ -18,5 +18,4 @@ class ExtractorTest : public ::testing::Test {
 
 TEST_F(ExtractorTest, TestCanCreateExtractor) {
     Command::Extractor *extractor = new Command::Extractor();
-    ASSERT_EQ(extractor->demo(), 0);
 }

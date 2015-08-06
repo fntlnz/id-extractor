@@ -1,5 +1,5 @@
 #include <iostream>
-#include "command/extractor.hpp"
+#include "command/extractor.h"
 
 void usage()
 {
@@ -9,6 +9,7 @@ void usage()
 
 int main(int argc, char *argv[])
 {
-    Command::Extractor *extractor = new Command::Extractor();
-    return extractor->demo();
+    Command::Extractor *extr = new Command::Extractor;
+    extr->detectObject(argc, argv);
+    return 1;
 }
